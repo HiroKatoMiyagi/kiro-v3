@@ -1,0 +1,19 @@
+# 環境変数ファイル
+.env
+.env.*
+
+# n8n の実行データ
+data/
+.backups/
+.logs/
+
+# Docker関連の一時ファイル
+*.pid
+*.log
+*.tmp
+
+# OS / エディタの生成物
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
